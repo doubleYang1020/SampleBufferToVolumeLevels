@@ -11,7 +11,7 @@ s.license     = { :type => "MIT", :file => "LICENSE" }
 s.platform = :ios, '8.0'
 s.requires_arc = true
 s.source_files = 'SampleBufferToVolumeLevels'
-s.public_header_files = 'SampleBufferToVolumeLevels/*.h'
+s.public_header_files = 'SampleBufferToVolumeLevels/'
 
 s.ios.deployment_target = '8.0'
 s.frameworks = 'AVFoundation'

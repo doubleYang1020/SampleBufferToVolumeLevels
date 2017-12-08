@@ -8,9 +8,9 @@
 
 import UIKit
 import AVFoundation
-public class SampleBufferToVolumeLevelsEngine: NSObject {
+open class SampleBufferToVolumeLevelsEngine: NSObject {
 
-    class func getVolumeLevelsFromeSampleBuffer(sampleBuffer : CMSampleBuffer) -> Float {
+    open class func getVolumeLevelsFromeSampleBuffer(sampleBuffer : CMSampleBuffer) -> Float {
         var buffer: CMBlockBuffer? = nil
         
         // Needs to be initialized somehow, even if we take only the address
