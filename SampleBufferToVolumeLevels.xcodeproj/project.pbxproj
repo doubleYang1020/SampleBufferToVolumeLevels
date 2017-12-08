@@ -10,6 +10,7 @@
 		F287FC901FDA4519000F29B1 /* SampleBufferToVolumeLevels.h in Headers */ = {isa = PBXBuildFile; fileRef = F287FC8E1FDA4519000F29B1 /* SampleBufferToVolumeLevels.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F287FC971FDA4554000F29B1 /* SampleBufferToVolumeLevelsEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F287FC961FDA4554000F29B1 /* SampleBufferToVolumeLevelsEngine.swift */; };
 		F287FC991FDA6161000F29B1 /* SampleBufferToVolumeLevelsEngine.swift in Headers */ = {isa = PBXBuildFile; fileRef = F287FC961FDA4554000F29B1 /* SampleBufferToVolumeLevelsEngine.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F287FCC41FDAA0A3000F29B1 /* SampleBufferToVolumeLevels.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F287FCC31FDAA0A3000F29B1 /* SampleBufferToVolumeLevels.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +18,7 @@
 		F287FC8E1FDA4519000F29B1 /* SampleBufferToVolumeLevels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleBufferToVolumeLevels.h; sourceTree = "<group>"; };
 		F287FC8F1FDA4519000F29B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F287FC961FDA4554000F29B1 /* SampleBufferToVolumeLevelsEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleBufferToVolumeLevelsEngine.swift; sourceTree = "<group>"; };
+		F287FCC31FDAA0A3000F29B1 /* SampleBufferToVolumeLevels.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SampleBufferToVolumeLevels.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 		F287FC8D1FDA4519000F29B1 /* SampleBufferToVolumeLevels */ = {
 			isa = PBXGroup;
 			children = (
+				F287FCC31FDAA0A3000F29B1 /* SampleBufferToVolumeLevels.podspec */,
 				F287FC8E1FDA4519000F29B1 /* SampleBufferToVolumeLevels.h */,
 				F287FC961FDA4554000F29B1 /* SampleBufferToVolumeLevelsEngine.swift */,
 				F287FC8F1FDA4519000F29B1 /* Info.plist */,
@@ -127,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F287FCC41FDAA0A3000F29B1 /* SampleBufferToVolumeLevels.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 s.name        = 'SampleBufferToVolumeLevels'
-s.version     = '1.0.0'
+s.version     = '1.0.1'
 s.authors     = { "阳眼的熊" => "237505990@qq.com" }
 s.homepage    = 'https://github.com/doubleYang1020/SampleBufferToVolumeLevels'
 s.summary     = 'this is get volumeLevels from sampleBuffer engine'
