@@ -8,7 +8,7 @@
 
 import UIKit
 import AVFoundation
-class SampleBufferToVolumeLevelsEngine: NSObject {
+public class SampleBufferToVolumeLevelsEngine: NSObject {
 
     class func getVolumeLevelsFromeSampleBuffer(sampleBuffer : CMSampleBuffer) -> Float {
         var buffer: CMBlockBuffer? = nil

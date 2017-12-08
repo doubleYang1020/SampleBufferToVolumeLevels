@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F287FC901FDA4519000F29B1 /* SampleBufferToVolumeLevels.h in Headers */ = {isa = PBXBuildFile; fileRef = F287FC8E1FDA4519000F29B1 /* SampleBufferToVolumeLevels.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F287FC971FDA4554000F29B1 /* SampleBufferToVolumeLevelsEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F287FC961FDA4554000F29B1 /* SampleBufferToVolumeLevelsEngine.swift */; };
+		F287FC991FDA6161000F29B1 /* SampleBufferToVolumeLevelsEngine.swift in Headers */ = {isa = PBXBuildFile; fileRef = F287FC961FDA4554000F29B1 /* SampleBufferToVolumeLevelsEngine.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F287FC901FDA4519000F29B1 /* SampleBufferToVolumeLevels.h in Headers */,
+				F287FC991FDA6161000F29B1 /* SampleBufferToVolumeLevelsEngine.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +270,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SampleBufferToVolumeLevels/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HuYangYang.SampleBufferToVolumeLevels;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -291,6 +294,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SampleBufferToVolumeLevels/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HuYangYang.SampleBufferToVolumeLevels;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
